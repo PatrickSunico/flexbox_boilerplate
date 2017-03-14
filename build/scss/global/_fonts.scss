@@ -1,0 +1,50 @@
+// Avenir Next Rounded Pro Regular via fontify
+// Fontify Method;
+@import url('https://www.fontify.me/wf/11cf09bb7b56eb27f9eba8c07f43565f');
+$avenirNext: font126933,
+sans-serif;
+.fontify {
+    font-family: $avenirNext;
+    font-weight: bold;
+}
+
+// Font face method
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url('../fonts/Raleway/Raleway-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-face {
+    font-family: 'Raleway-Regular';
+}
+
+// End font face method
+// Font-squirrel Method
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('../fonts/Raleway_Set/raleway-bold-webfont.woff2') format('woff2'), url('../fonts/Raleway_Set/raleway-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../fonts/Raleway_Set/raleway-regular-webfont.woff2') format('woff2'), url('../fonts/Raleway_Set/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaysemibold';
+    src: url('../fonts/Raleway_Set/raleway-semibold-webfont.woff2') format('woff2'), url('../fonts/raleway-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-squirrel {
+    font-family: ralewaysemibold;
+}
+
+// End Font Squirrel Method

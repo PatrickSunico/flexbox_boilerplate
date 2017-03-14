@@ -1,0 +1,118 @@
+// Navigation Mobile First
+.flex-nav {
+    display: flex;
+    background-color: white;
+    // set to relative for positioned absolute .open class
+    position: relative;
+    .logo-placeholder {
+        align-items: center;
+        padding: 20px;
+        font-size: 28px;
+        // minimum baseline for the flex-nav parent
+        flex: 1;
+    }
+    .ul-container {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: none;
+        // flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+        li {
+            // single column on mobile screen 
+            flex-basis: 100%;
+            padding: 20px;
+            &:hover {
+                transition: all .4s;
+                background-color: #dadada;
+            }
+            a {
+                color: #000;
+            }
+        }
+        .social {
+            // comment - defaults to 4 columns 
+            flex: 1;
+            // uncomment for single column
+            // flex: 1 1 100%;
+        }
+    }
+}
+
+// open nav animation
+.flex-nav {
+    .open {
+        display: flex;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        transition: .2s all;
+        li {
+            cursor: pointer;
+            background-color: #fff;
+            &:hover {
+                transition: all .4s;
+                background-color: #dadada;
+            }
+        }
+    }
+}
+
+// button style
+.toggleNav {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 22px;
+    padding: 20px;
+    cursor: pointer;
+    align-items: center;
+    &:hover {
+        transition: all .4s;
+        background-color: #dadada;
+    }
+}
+
+// Medium Sized Devices
+// @include breakpoint-640-sm {
+//     .flex-nav {
+//         .ul-container {
+//             li {
+//                 flex: 1 1 50%;
+//             }
+//             .social {
+//                 flex: 1 1 25%;
+//             }
+//         }
+//     }
+// }
+// Desktop
+@include breakpoint-1200-sm {
+    //logo on small screens
+    .flex-nav {
+        // display: flex;
+        .ul-container {
+            list-style: none;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-end;
+            // specifies the length of the ul that want's to contain the flex-nav parent
+            flex: 4;
+            li {
+                flex: 3;
+                padding: 30px 0;
+            }
+            .social {
+                flex: 1;
+            }
+        }
+    }
+    .toggleNav {
+        display: none;
+    }
+}

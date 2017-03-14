@@ -1,0 +1,226 @@
+@import url("https://www.fontify.me/wf/11cf09bb7b56eb27f9eba8c07f43565f");
+*,
+:before,
+:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #cfcfcf;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a,
+a:visited,
+a:focus,
+a:active,
+a:link {
+  text-decoration: none;
+  outline: 0;
+}
+
+a {
+  color: skyblue;
+  -webkit-transition: .2s ease-in-out color;
+  transition: .2s ease-in-out color;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+  height: auto;
+  width: 100%;
+}
+
+.fontify {
+  font-family: font126933, sans-serif;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Raleway-Regular';
+  src: url("../fonts/Raleway/Raleway-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-face {
+  font-family: 'Raleway-Regular';
+}
+
+@font-face {
+  font-family: 'ralewaybold';
+  src: url("../fonts/Raleway_Set/raleway-bold-webfont.woff2") format("woff2"), url("../fonts/Raleway_Set/raleway-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ralewayregular';
+  src: url("../fonts/Raleway_Set/raleway-regular-webfont.woff2") format("woff2"), url("../fonts/Raleway_Set/raleway-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ralewaysemibold';
+  src: url("../fonts/Raleway_Set/raleway-semibold-webfont.woff2") format("woff2"), url("../fonts/raleway-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-squirrel {
+  font-family: ralewaysemibold;
+}
+
+.flex-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  position: relative;
+}
+
+.flex-nav .logo-placeholder {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  font-size: 28px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.flex-nav .ul-container {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.flex-nav .ul-container li {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  padding: 20px;
+}
+
+.flex-nav .ul-container li:hover {
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  background-color: #dadada;
+}
+
+.flex-nav .ul-container li a {
+  color: #000;
+}
+
+.flex-nav .ul-container .social {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.flex-nav .open {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  -webkit-transition: .2s all;
+  transition: .2s all;
+}
+
+.flex-nav .open li {
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.flex-nav .open li:hover {
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  background-color: #dadada;
+}
+
+.toggleNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.toggleNav:hover {
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  background-color: #dadada;
+}
+
+@media only screen and (min-width: 1200px) {
+  .flex-nav .ul-container {
+    list-style: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-flex: 4;
+        -ms-flex: 4;
+            flex: 4;
+  }
+  .flex-nav .ul-container li {
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+    padding: 30px 0;
+  }
+  .flex-nav .ul-container .social {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .toggleNav {
+    display: none;
+  }
+}

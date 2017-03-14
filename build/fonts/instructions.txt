@@ -1,0 +1,2 @@
+Insert Custom Fonts here i.e woff, ttf, otf etc 
+Use font-squirrel's font generator to generate the font-kit with your own ttf

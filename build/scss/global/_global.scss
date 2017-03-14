@@ -1,0 +1,53 @@
+*,
+&:before,
+&:after {
+    // box-sizing: border-box;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #cfcfcf;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+a,
+a:visited,
+a:focus,
+a:active,
+a:link {
+    text-decoration: none;
+    outline: 0;
+}
+
+a {
+    color: skyblue;
+    transition: .2s ease-in-out color;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+    height: auto;
+    width: 100%;
+}

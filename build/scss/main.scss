@@ -1,0 +1,10 @@
+// Global Mixins
+@import 'global/global';
+@import 'global/mixins';
+@import 'global/fonts';
+//vendor
+// vendor partials i.e
+// @import 'vendor/bourbon/bourbon';
+// @import 'mixins/animations';
+// Partials 
+@import 'components/navigation_1';
