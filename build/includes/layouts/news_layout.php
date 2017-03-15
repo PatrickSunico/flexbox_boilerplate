@@ -99,7 +99,8 @@
 </div>
 <div class="nw-media-object">
   <div class="object">
-    <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=80%C3%9780&w=80&h=80" alt="">
+    <img class="media-sm" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=80%C3%9780&w=80&h=80" alt="">
+    <!--<img class="media-lg" src="" alt="">-->
     <div class="media-body">
       <h1>Heading</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae eos nemo excepturi molestias, aliquam necessitatibus optio? Fugit error dignissimos commodi soluta fuga a, adipisci, ea sequi quam eaque quisquam nostrum.</p>
@@ -107,7 +108,8 @@
   </div>
 
   <div class="object">
-    <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=80%C3%9780&w=80&h=80" alt="">
+    <img class="media-sm" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=80%C3%9780&w=80&h=80" alt="">
+    <!--<img class="media-lg" src="" alt="">-->
     <div class="media-body">
       <h1>Heading</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem corrupti et deserunt, sapiente fuga quidem porro cumque, atque numquam sunt voluptates repellendus placeat! Illum incidunt, consequatur quisquam nisi, culpa animi!</p>
@@ -115,7 +117,8 @@
   </div>
 
   <div class="object">
-    <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=80%C3%9780&w=80&h=80" alt="">
+    <img class="media-sm" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=80%C3%9780&w=80&h=80" alt="">
+    <!--<img class="media-lg" src="" alt="">-->
     <div class="media-body">
       <h1>Heading</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius odio, distinctio debitis doloribus adipisci impedit facere accusamus tenetur quibusdam quidem, vero, earum fugiat, cum non et necessitatibus dolorem? Iusto, omnis.</p>

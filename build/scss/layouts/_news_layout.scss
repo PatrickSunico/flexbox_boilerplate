@@ -91,10 +91,11 @@
     padding: 1rem;
     margin: 1rem;
     .object {
-        display: flex;
-        flex-direction: column;
+        display: block;
+        // flex-direction: column;
         // align-items: flex-start;
         margin: 1rem;
+        text-align: center;
         img {
             margin-right: 1rem;
         }
@@ -111,8 +112,10 @@
     flex-flow: row wrap;
     .nw-bottom-nav {
         margin: 0 auto;
+        text-align: center;
+        flex-flow: column-wrap;
+        flex-basis: 100%;
         ul {
-            text-align: center;
             li {
                 padding: 1rem;
             }
@@ -173,13 +176,18 @@
     }
     .nw-footer {
         flex-direction: row;
+        .nw-bottom-nav {
+            flex: 1;
+        }
     }
     .nw-media-object {
         flex-direction: row;
         flex-basis: 100%;
         .object {
+            display: flex;
             flex-direction: row;
             margin: 0 1rem;
+            text-align: left;
             img {
                 height: 80px;
                 width: auto;
