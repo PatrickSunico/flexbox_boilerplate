@@ -2,7 +2,32 @@
   <div class="nw-header">
     <h1>The CSS Times</h1>
   </div>
+
+
   <div class="nw-content-container">
+      <div class="nw-sidebar-left">
+        <ul class="list">
+          <li class="links">
+            <a href="#">Link Here</a>
+            </li>
+          <li class="links">
+            <a href="#">Link Here</a>
+            </li>
+          <li class="links">
+            <a href="#">Link Here</a>
+            </li>
+          <li class="links">
+            <a href="#">Link Here</a>
+            </li>
+          <li class="links">
+            <a href="#">Link Here</a>
+            </li>
+          <li class="links">
+            <a href="#">Link Here</a>
+            </li>
+        </ul>
+      </div>
+
     <div class="nw-content">
     <div class="nw-story">
       <img src="https://placekitten.com/1200/400" alt="">
@@ -39,7 +64,7 @@
   </div>
   <!--End-->
 
-  <div class="nw-sidebar">
+  <div class="nw-sidebar-right">
     <div class="nw-story">
       <img src="https://placekitten.com/1200/500" alt="">
       <div class="nw-story-body">
