@@ -32,9 +32,6 @@
 
 .nw-sm-side,
 .nw-story-small {
-    margin-top: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
     &:last-child {
         margin-right: 0;
     }
@@ -64,22 +61,6 @@
     flex-direction: column;
 }
 
-.nw-footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 0;
-    flex-direction: column;
-    .nw-bottom-nav {
-        margin: 0 auto;
-        ul {
-            text-align: center;
-            li {
-                padding: 1rem;
-            }
-        }
-    }
-}
-
 .nw-content-container {
     display: flex;
     flex-flow: row wrap;
@@ -98,6 +79,43 @@
         justify-content: center;
         .links {
             padding: 1rem;
+        }
+    }
+}
+
+.nw-media-object {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+    .object {
+        display: flex;
+        flex-direction: column;
+        // align-items: flex-start;
+        margin: 1rem;
+        img {
+            margin-right: 1rem;
+        }
+        .media-body {
+            flex: 1;
+        }
+    }
+}
+
+.nw-footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    flex-flow: row wrap;
+    .nw-bottom-nav {
+        margin: 0 auto;
+        ul {
+            text-align: center;
+            li {
+                padding: 1rem;
+            }
         }
     }
 }
@@ -122,9 +140,6 @@
         flex-direction: row;
         flex-wrap: wrap;
         margin: 0 auto;
-    }
-    .nw-footer {
-        flex-direction: row;
     }
     .nw-story-small {
         flex: 1;
@@ -153,6 +168,25 @@
             .links {
                 padding: 2rem 1rem;
                 text-align: center;
+            }
+        }
+    }
+    .nw-footer {
+        flex-direction: row;
+    }
+    .nw-media-object {
+        flex-direction: row;
+        flex-basis: 100%;
+        .object {
+            flex-direction: row;
+            margin: 0 1rem;
+            img {
+                height: 80px;
+                width: auto;
+                margin-right: 1rem;
+            }
+            .media-body {
+                flex: 1;
             }
         }
     }
