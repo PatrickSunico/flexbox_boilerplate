@@ -16,6 +16,7 @@ var reload = browserSync.reload;
 
 var rawPaths = {
     scss: './build/scss/**/*.scss*',
+    includes: './build/includes/**/*.php',
     index: './build/*.php',
     php: './build/includes/*.php',
     js: './build/js/*.js'
@@ -78,6 +79,7 @@ gulp.task('uglify', function() {
 
 gulp.task('watch', function() {
     gulp.watch(rawPaths.php).on('change', browserSync.reload);
+    gulp.watch(rawPaths.includes).on('change', browserSync.reload);
     gulp.watch(rawPaths.scss, ['sass']).on('change', browserSync.reload);
     gulp.watch(rawPaths.js).on('change', browserSync.reload);
     gulp.watch(rawPaths.index).on('change', browserSync.reload);
