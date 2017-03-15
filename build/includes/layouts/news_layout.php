@@ -162,23 +162,3 @@
   </div>
 </div>
 
-
-
-<!--<div class="Media">
-  <img class="Media-figure" src="" alt="">
-  <p class="Media-body">…</p>
-</div>
-The CSS
-
-.Media {
-  display: flex;
-  align-items: flex-start;
-}
-
-.Media-figure {
-  margin-right: 1em;
-}
-
-.Media-body {
-  flex: 1;
-}-->
