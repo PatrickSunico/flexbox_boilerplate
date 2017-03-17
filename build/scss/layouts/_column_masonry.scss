@@ -32,18 +32,14 @@
 }
 
 // Example 2
-.wrapper {
-    max-width: 92%;
-    margin: 0 auto;
-}
-
 // masonry wrapper
 .masonry-image {
-    width: 92%;
-    margin: 1.5rem auto;
-    // column-width: 220px;
-    column-count: 4;
+    margin: 0 auto;
+    column-width: 220px;
     column-gap: 0;
+    transition: all .5s ease-in-out;
+    // gutters
+    // column-gap: 1.5;
 }
 
 .img-item {
@@ -53,5 +49,29 @@
     img {
         width: 100%;
         height: auto;
+        opacity: .75;
+        transition: all 1s cubic-bezier(0.25, 0.8, .25, 1);
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+@include breakpoint-640-sm {
+    .masonry-image {
+        column-count: 2;
+    }
+}
+
+@include breakpoint-991-sm {
+    .masonry-image {
+        column-count: 3;
+    }
+}
+
+@include breakpoint-1200-sm {
+    .wrapper {
+        width: 92%;
+        margin: 1rem auto;
     }
 }

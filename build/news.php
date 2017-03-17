@@ -8,6 +8,7 @@
 <?php include('includes/components/column_masonry_1.php'); ?>
 <?php include('includes/components/column_masonry_2.php'); ?>
 
+<!--Grid System-->
 
 
 <!--Footer-->

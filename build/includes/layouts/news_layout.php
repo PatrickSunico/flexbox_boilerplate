@@ -43,7 +43,7 @@
         </div>
       </div>
       <div class="nw-story nw-story-small">
-        <img src="https://placekitten.com/1200/600" alt="">
+        <img src="https://placekitten.com/1200/500" alt="">
         <div class="nw-story-body">
           <h1>Lorem Ipsum</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident autem tempora aliquid fugit ex, animi a possimus cumque in nihil, consectetur, quisquam. Sapiente sed laborum enim omnis ut perferendis! Ex!</p>
@@ -51,12 +51,20 @@
       </div>
 
       <div class="nw-story nw-story-small">
+        <img src="https://placekitten.com/1200/700" alt="">
+        <div class="nw-story-body">
+          <h1>Lorem Ipsum</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident autem tempora aliquid fugit ex, animi a possimus cumque in nihil, consectetur, quisquam. Sapiente sed laborum enim omnis ut perferendis! Ex!</p>
+        </div>
+      </div>     
+
+      <div class="nw-story nw-story-small">
         <img src="https://placekitten.com/1200/600" alt="">
         <div class="nw-story-body">
           <h1>Lorem Ipsum</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident autem tempora aliquid fugit ex, animi a possimus cumque in nihil, consectetur, quisquam. Sapiente sed laborum enim omnis ut perferendis! Ex!</p>
         </div>
-      </div>      
+      </div>  
     </div>
     <!--End-->
 
@@ -78,7 +86,7 @@
 
       <!-- Small Headings with Images with nw-sm-side-->
       <div class="nw-story nw-sm-side">
-        <img src="https://placekitten.com/1200/600" alt="">
+        <img src="https://placekitten.com/1200/500" alt="">
         <div class="nw-story-body">
           <h1>Lorem Ipsum</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident autem tempora aliquid fugit ex, animi a possimus cumque in nihil, consectetur, quisquam. Sapiente sed laborum enim omnis ut perferendis! Ex!</p>
