@@ -5,7 +5,9 @@
 <?php include('includes/layouts/news_layout.php');?>
 
 <!--Masonry-->
-<?php include('includes/components/masonry.php'); ?>
+<?php include('includes/components/column_masonry_1.php'); ?>
+<?php include('includes/components/column_masonry_2.php'); ?>
+
 
 
 <!--Footer-->

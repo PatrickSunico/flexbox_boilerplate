@@ -1,10 +1,11 @@
+// Example 1
 .masonry-wrapper {
-    width: 95%;
+    width: 92%;
     margin: 0 auto;
     column-width: 220px;
     column-count: 3;
     column-gap: 20px;
-    a[title] {
+    .m-item {
         text-decoration: none;
         padding: 1rem;
         color: #424242;
@@ -25,7 +26,32 @@
             margin-top: 1rem;
         }
     }
-    &:hover a[title]:not(:hover) {
+    &:hover .m-item:not(:hover) {
         opacity: .6;
+    }
+}
+
+// Example 2
+.wrapper {
+    max-width: 92%;
+    margin: 0 auto;
+}
+
+// masonry wrapper
+.masonry-image {
+    width: 92%;
+    margin: 1.5rem auto;
+    // column-width: 220px;
+    column-count: 4;
+    column-gap: 0;
+}
+
+.img-item {
+    background-color: #eee;
+    display: inline-block;
+    width: 100%;
+    img {
+        width: 100%;
+        height: auto;
     }
 }
