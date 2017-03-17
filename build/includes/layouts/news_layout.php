@@ -56,9 +56,7 @@
           <h1>Lorem Ipsum</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident autem tempora aliquid fugit ex, animi a possimus cumque in nihil, consectetur, quisquam. Sapiente sed laborum enim omnis ut perferendis! Ex!</p>
         </div>
-      </div>
-
-      
+      </div>      
     </div>
     <!--End-->
 
@@ -126,39 +124,5 @@
   </div>
 </div>
 
-<div class="nw-footer">
-  <div class="nw-bottom-nav">
-    <h1>Footer Heading 1</h1>
-    <ul>
-      <li>Links</li>
-      <li>Links</li>
-      <li>Links</li>
-      <li>Links</li>
-      <li>Links</li>
-      <li>Links</li>
-    </ul>
-  </div>
-  <div class="nw-bottom-nav">
-    <h1>Footer Heading 2</h1>
-    <ul>
-      <li>Links</li>
-      <li>Links</li>
-      <li>Links</li>
-      <li>Links</li>
-      <li>Links</li>
-      <li>Links</li>
-    </ul>
-  </div>
-  <div class="nw-bottom-nav">
-    <h1>Footer Heading 3</h1>
-    <ul>
-      <li>Links</li>
-      <li>Links</li>
-      <li>Links</li>
-      <li>Links</li>
-      <li>Links</li>
-      <li>Links</li>
-    </ul>
-  </div>
-</div>
+
 

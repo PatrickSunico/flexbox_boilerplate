@@ -30,6 +30,7 @@
     margin-bottom: 1rem;
 }
 
+// removes margin's from the last-child
 .nw-sm-side,
 .nw-story-small {
     &:last-child {
@@ -97,10 +98,12 @@
         margin: 1rem;
         text-align: center;
         img {
-            margin-right: 1rem;
+            margin-right: 0;
         }
         .media-body {
             flex: 1;
+            width: 50%;
+            margin: 0 auto;
         }
     }
 }
@@ -146,9 +149,11 @@
     }
     .nw-story-small {
         flex: 1;
+        margin-right: 1rem;
     }
     .nw-sm-side {
         flex: 1;
+        margin-right: 1rem;
     }
     .nw-content {
         flex-direction: row;
@@ -164,7 +169,7 @@
         flex-direction: column;
         background-color: white;
         align-items: center;
-        margin: 2rem 0 2rem 1rem;
+        margin: 2rem 0 2rem 2rem;
         flex: 1;
         .list {
             flex-direction: column;
