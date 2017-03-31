@@ -62,3 +62,7 @@ sftp-config*
 
 # VS Code #
 *.vscode/
+
+# Project Specific #
+####################
+/dist

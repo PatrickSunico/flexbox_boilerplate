@@ -12,8 +12,6 @@
 </div>
 <!--End-->
 
-
-
 <!--Footer-->
 <?php
   include('includes/global/footer.php');
