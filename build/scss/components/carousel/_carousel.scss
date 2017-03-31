@@ -1,0 +1,64 @@
+.banner {
+    // height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    .center-me {
+        color: #fff;
+        font-size: 50px;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        background-color: #2a2a2a;
+        .slider {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            height: 400px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// Medium to small devices
+@include breakpoint-991-sm {
+    .banner {
+        .center-me {
+            .slider {
+                height: 400px;
+                width: 100%;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@include breakpoint-1200-sm {
+    .banner {
+        .center-me {
+            .slider {
+                height: 600px;
+                width: 100%;
+                margin: 0 auto;
+            }
+        }
+    }
+}

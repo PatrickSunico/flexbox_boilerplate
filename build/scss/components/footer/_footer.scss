@@ -1,0 +1,33 @@
+ul.sitemap {
+    margin: 20px 0;
+    justify-content: center;
+    li {
+        padding: 4px 0;
+    }
+    ul.social {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        li {
+            flex-basis: 14%;
+        }
+    }
+}
+
+@include breakpoint-480-sm {
+    ul.sitemap {
+        flex-basis: 33%;
+    }
+}
+
+@include breakpoint-1280-sm {
+    ul.sitemap {
+        flex: 1;
+        margin: 40px 0;
+        justify-content: center;
+        li {
+            padding: 4px 0;
+        }
+    }
+}

@@ -3,15 +3,20 @@
 @import 'global/global';
 @import 'global/mixins';
 @import 'global/fonts';
-@import 'global/non_fb_grid';
-//vendor
-// vendor partials i.e
-// @import 'vendor/bourbon/bourbon';
-// @import 'mixins/animations';
-// Partials 
-@import 'components/navigation_1';
+// Wrapper Containers
+@import 'components/containers/wrapper-container';
+// Navigation
+@import 'components/navigation/navigation_mobile';
+@import 'components/navigation/navigation_desktop';
+// Carousel 
+@import 'components/carousel/carousel';
+// Grid Container
+@import 'components/grid/grid';
+// Foooter 
+@import 'components/footer/footer';
 // Portfolio Layout
-@import 'layouts/portfolio_layout';
+// @import 'layouts/portfolio_layout';
 // News Layout
-@import 'layouts/news_layout';
-@import 'layouts/column_masonry';
+// @import 'layouts/news_layout';
+// Masonry
+// @import 'layouts/column_masonry';

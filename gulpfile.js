@@ -7,9 +7,10 @@ var gulp = require('gulp'),
     sass = require('gulp-sass'),
     uglify = require('gulp-uglify'),
     pump = require('pump'),
-
+    imagemin = require('gulp-imagemin'),
+    fontmin = require('gulp-fontmin'),
     // use this only if you need to convert templates into html
-    // php2html = require('gulp-php2html'),
+    php2html = require('gulp-php2html'),
     php = require('gulp-connect-php');
 
 var reload = browserSync.reload;

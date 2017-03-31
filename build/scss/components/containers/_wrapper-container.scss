@@ -1,0 +1,81 @@
+// Navbar Container 
+.navbar-container {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+}
+
+@include breakpoint-1280-sm {
+    .navbar-container {
+        width: 960px;
+    }
+}
+
+@include breakpoint-1400-sm {
+    .navbar-container {
+        width: 1200px;
+    }
+}
+
+// End Container
+// Wrapper Container
+.wrapper-container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+@include breakpoint-1280-sm {
+    .wrapper-container {
+        width: 960px;
+    }
+}
+
+@include breakpoint-1400-sm {
+    .wrapper-container {
+        width: 1200px;
+    }
+}
+
+// Footer 
+.footer-container {
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@include breakpoint-480-sm {
+    .footer-container {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+}
+
+@include breakpoint-1280-sm {
+    .footer-container {
+        flex-wrap: nowrap;
+        max-width: 960px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@include breakpoint-1400-sm {
+    .footer-container {
+        max-width: 1200px;
+        padding: 0 10px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+// End Footer
