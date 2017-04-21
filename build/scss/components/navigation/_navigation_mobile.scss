@@ -1,3 +1,23 @@
+// Navbar Container 
+.navbar-container {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+}
+
+@include breakpoint-1280-sm {
+    .navbar-container {
+        width: 1200px;
+    }
+}
+
+@include breakpoint-1400-sm {
+    .navbar-container {
+        width: 1200px;
+    }
+}
+
 // Navigation Mobile First
 .flex-nav {
     display: flex;
@@ -10,7 +30,7 @@
         padding: 15px;
         font-size: 28px;
         // minimum baseline for the flex-nav parent
-        flex: 1;
+        flex: 4;
     }
     .ul-container {
         list-style: none;
@@ -25,7 +45,6 @@
             flex-basis: 100%;
             &:hover {
                 transition: all .4s;
-                // background-color: #dadada;
             }
             a {
                 color: #000;
@@ -48,10 +67,17 @@
 
 // submenu 
 .has-children {
+    a.nav-links {
+        &:after {
+            padding-left: 4px;
+            content: '▾';
+        }
+    }
     ul {
         display: none;
         li {
             padding-left: 20px;
+            width: 100%;
             a {
                 display: block;
             }
@@ -59,11 +85,10 @@
     }
 }
 
-nav ul li:hover ul {
-    display: flex;
-    flex-direction: column;
-}
-
+// nav ul li:hover ul {
+//     display: flex;
+//     flex-direction: column;
+// }
 // End
 // open nav animation
 .flex-nav {

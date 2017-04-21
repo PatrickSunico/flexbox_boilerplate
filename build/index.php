@@ -6,11 +6,6 @@
 <!--carousel-->
 <?php include('includes/components/carousel/carousel.php');?>
 
-<!--grid layout-->
-<div class="wrapper-container">
-  <?php include('includes/components/grid_layout/grid_layout.php');?>
-</div>
-<!--End-->
 
 <!--Footer-->
 <?php

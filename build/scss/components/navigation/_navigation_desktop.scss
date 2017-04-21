@@ -5,18 +5,17 @@
         .ul-container {
             list-style: none;
             align-items: center;
-            // margin: 0;
-            // padding: 0;
             display: flex;
             justify-content: space-between;
             flex-direction: row;
-            flex: 4;
+            flex: 5;
             li {
                 position: relative;
                 flex: 3;
-                padding: 15px 0;
+                padding: 2rem 1rem;
                 a {
                     display: block;
+                    padding: 0;
                 }
                 &:hover {
                     background-color: #efefef;
@@ -34,21 +33,34 @@
     // Submenu
     .has-children {
         z-index: 9;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        &:after {
+            // padding-left: 4px;
+            // content: '▾';
+        }
+        a {
+            flex: 2;
+        }
         ul {
             display: none;
             position: absolute;
+            left: 0;
             top: 100%;
             flex-direction: column;
-            width: 100%;
             padding: 0;
             background-color: white;
+            width: 200px;
             li {
                 width: 100%;
-                padding-left: 20px;
+                // padding-left: 20px;
+                padding: 1rem;
                 a {
                     // padding: 1rem;
                     display: block;
                     color: #fff;
+                    flex: 1;
                 }
                 &:hover {
                     background-color: #efefef;
@@ -56,6 +68,9 @@
                 }
             }
         }
+    }
+    ul.dropdown {
+        width: 200px;
     }
     nav ul li:hover ul {
         display: flex;
