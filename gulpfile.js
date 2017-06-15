@@ -87,7 +87,6 @@ gulp.task('sass', function() {
         .pipe(sass({ outputStyle: 'expanded' }).on('error', sass.logError))
         .pipe(rename('main.min.css'))
         .pipe(autoprefixer(gulp_options.browsers))
-        .pipe(gulp.dest(buildOut.cssOut))
         // dist assets
         .pipe(gulp.dest(distOut.scss));
 

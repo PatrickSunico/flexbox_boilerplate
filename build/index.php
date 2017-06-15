@@ -1,10 +1,10 @@
 <?php
   include('includes/global/head.php');
 ?>
-<?php include('includes/components/navigation/navigation.php');?>
+<?php include('includes/components/navigation.php');?>
 
 <!--carousel-->
-<?php include('includes/components/carousel/carousel.php');?>
+<?php include('includes/components/carousel.php');?>
 
 
 <!--Footer-->
