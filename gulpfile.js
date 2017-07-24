@@ -32,7 +32,6 @@ var buildOut = {
     cssOut: './build/css',
     js: './build/js/',
     compressed_images_build: './build/images/'
-
 };
 
 // dist out 
@@ -87,6 +86,8 @@ gulp.task('sass', function() {
         .pipe(sass({ outputStyle: 'expanded' }).on('error', sass.logError))
         .pipe(rename('main.min.css'))
         .pipe(autoprefixer(gulp_options.browsers))
+        // buildout 
+        .pipe(gulp.dest(buildOut.cssOut))
         // dist assets
         .pipe(gulp.dest(distOut.scss));
 

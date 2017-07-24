@@ -8,13 +8,13 @@
 @import 'global/mixins';
 @import 'global/fonts';
 // Wrapper Containers
-@import 'components/containers/wrapper-container';
+@import 'components/wrapper-container';
 // Navigation
-@import 'components/navigation/navigation_mobile';
-@import 'components/navigation/navigation_desktop';
+@import 'components/navigation_mobile';
+@import 'components/navigation_desktop';
 // Carousel 
-@import 'components/carousel/carousel';
+@import 'components/carousel';
 
-/* Footer */
+// /* Footer */
 
-@import 'components/footer/footer';
+@import 'components/footer';
